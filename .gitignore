@@ -1,0 +1,15 @@
+node_modules/
+.npm-cache/
+.relay-data/
+.env*
+!.env.example
+.dev.vars*
+.wrangler/
+.sites-runtime/
+.vinext/
+.next/
+dist/
+portable-dist/
+*.tsbuildinfo
+work/
+operator-access.json

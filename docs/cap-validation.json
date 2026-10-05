@@ -1,0 +1,26 @@
+{
+  "schema": "OASIS CAP 1.2 official XSD",
+  "date": "2026-10-05",
+  "fixtures": [
+    {
+      "file": "reference-test.xml",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "synthetic-actual.xml",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "synthetic-cancel.xml",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "synthetic-update.xml",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+import fs from 'node:fs';import {randomBytes,createHash} from 'node:crypto';
+const file=process.argv[2];if(!file)throw Error('Usage: node scripts/provision-operators.mjs /secure/path/operator-access.json');if(fs.existsSync(file))throw Error('Refusing to overwrite an existing operator file.');
+const users=['governor','contributor','reviewer','publisher'].map(role=>{const token=randomBytes(32).toString('base64url');console.log(role+' token: '+token);return {id:'operator-'+role,role,label:role,tokenHash:createHash('sha256').update(token).digest('hex')};});fs.writeFileSync(file,JSON.stringify(users,null,2),{mode:0o600});console.log('Protect the printed tokens. The file stores only token hashes. Do not commit operator files or tokens.');

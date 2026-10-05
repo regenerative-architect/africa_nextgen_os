@@ -1,0 +1,893 @@
+{
+  "profile": "acr/1.0",
+  "type": "regional-pack",
+  "region": "sudan-chad",
+  "createdAt": "2026-10-05T12:00:00Z",
+  "freshness": "Snapshot only. Source dates and expiry remain authoritative.",
+  "alerts": [
+    {
+      "profile": "acr/1.0",
+      "id": "reference-sudan-chad-2025",
+      "references": [],
+      "revision": 1,
+      "title": "Historical reference: displacement and nutrition response in eastern Chad",
+      "region": "sudan-chad",
+      "level": "O0",
+      "workflow": "reference",
+      "reference": true,
+      "expired": true,
+      "observedAt": "2025-06-07T00:00:00Z",
+      "expiresAt": "2026-01-01T00:00:00Z",
+      "publishedAt": null,
+      "privacy": "public",
+      "geo": {
+        "country": "TCD",
+        "countryName": "Chad",
+        "admin1": "Wadi Fira"
+      },
+      "cap": {
+        "urgency": "Past",
+        "severity": "Unknown",
+        "certainty": "Observed"
+      },
+      "claims": [
+        {
+          "id": "reference-sudan-chad-2025-claim",
+          "kind": "observation",
+          "text": "In its June 2025 reporting, UNICEF described Sudanese refugee arrivals into eastern Chad and malnutrition treatment needs in Wadi Fira following attacks near El Fasher.",
+          "sourceIds": [
+            "reference-sudan-chad-2025-source"
+          ],
+          "assumptions": "",
+          "horizon": "",
+          "translationStatus": "original",
+          "language": "en"
+        },
+        {
+          "id": "reference-sudan-chad-2025-limitation",
+          "kind": "inference",
+          "text": "Qualitative publisher summary only. No individual stories, names or health details are copied. Does not establish current displacement, need, funding or service availability.",
+          "sourceIds": [
+            "reference-sudan-chad-2025-source"
+          ],
+          "assumptions": "",
+          "horizon": "",
+          "translationStatus": "original",
+          "language": "en"
+        }
+      ],
+      "sources": [
+        {
+          "id": "reference-sudan-chad-2025-source",
+          "url": "https://www.unicef.org/chad/stories/sudanese-crisis-responding-nutrition-emergency-save-childrens-lives-wadi-fira-chad",
+          "publisher": "UNICEF",
+          "title": "UNICEF Chad: Sudanese crisis nutrition response in Wadi Fira",
+          "publishedAt": "2025-06-07T00:00:00Z",
+          "methodology": "Dated publisher report; qualitative summary retained; no current incident totals.",
+          "directness": "primary",
+          "independenceGroup": "UNICEF"
+        }
+      ],
+      "metrics": [],
+      "bottleneck": "Requires refreshed evidence and local assessment",
+      "tags": [
+        "nutrition",
+        "health",
+        "protection"
+      ],
+      "contradictions": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "unicef-hac",
+      "title": "UNICEF Humanitarian Action for Children",
+      "publisher": "UNICEF",
+      "url": "https://www.unicef.org/appeals",
+      "scope": "continental",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Country appeals and dated situation reports across nutrition, health, WASH, education and protection.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "africacdc-reports",
+      "title": "Africa CDC surveillance and disease intelligence resources",
+      "publisher": "Africa CDC",
+      "url": "https://africacdc.org/thematic-area/surveillance-and-disease-intelligence/",
+      "scope": "continental",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Primary epidemic intelligence reports, surveillance guidance and risk assessments; reports select priority events rather than all events.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "who-afro",
+      "title": "WHO Regional Office for Africa",
+      "publisher": "WHO AFRO",
+      "url": "https://www.afro.who.int/",
+      "scope": "continental",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Official regional health updates and country guidance. Verify report date and geographic coverage before using a statement.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "wfp-operations",
+      "title": "WFP operations database",
+      "publisher": "World Food Programme",
+      "url": "https://www.wfp.org/operations",
+      "scope": "continental",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Country operation and strategic-plan documents; published plans do not prove current capacity, stock, access or funding.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "ipc-analyses",
+      "title": "IPC analyses and resources",
+      "publisher": "IPC",
+      "url": "https://www.ipcinfo.org/",
+      "scope": "continental",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Source-published food insecurity and malnutrition analyses with stated current and projection periods.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unhcr-odp",
+      "title": "UNHCR Operational Data Portal",
+      "publisher": "UNHCR",
+      "url": "https://data.unhcr.org/",
+      "scope": "continental",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Operational displacement documents and datasets. Keep source, data date and publication date separate; coverage can differ across countries.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "au-acerwc",
+      "title": "African Committee of Experts on the Rights and Welfare of the Child",
+      "publisher": "African Union / ACERWC",
+      "url": "https://www.acerwc.africa/",
+      "scope": "continental",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Child-rights governance and reports; does not establish that a service is available locally.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unhcr-sudan",
+      "title": "UNHCR Sudan situation",
+      "publisher": "UNHCR",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "scope": "sudan-chad",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Cross-border displacement and response documents for Sudan and neighboring countries, including Chad.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unicef-sudan",
+      "title": "UNICEF Sudan situation reports",
+      "publisher": "UNICEF",
+      "url": "https://www.unicef.org/appeals/sudan/situation-reports",
+      "scope": "sudan-chad",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Dated country reports; regional and state details need report-specific attribution.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unicef-chad",
+      "title": "UNICEF Chad",
+      "publisher": "UNICEF",
+      "url": "https://www.unicef.org/chad/",
+      "scope": "sudan-chad",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Official Chad programme and refugee-response reporting; country website does not guarantee local response availability.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unicef-southsudan",
+      "title": "UNICEF South Sudan situation reports",
+      "publisher": "UNICEF",
+      "url": "https://www.unicef.org/appeals/south-sudan/situation-reports",
+      "scope": "jonglei",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Dated multisector reports, with source-specific mentions of Jonglei and flood-affected areas.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unhcr-southsudan",
+      "title": "UNHCR South Sudan situation",
+      "publisher": "UNHCR",
+      "url": "https://data.unhcr.org/en/situations/southsudan",
+      "scope": "jonglei",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Regional refugee data and dated population dashboards; not a Jonglei-local service roster.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unicef-drc",
+      "title": "UNICEF DRC situation reports",
+      "publisher": "UNICEF",
+      "url": "https://www.unicef.org/appeals/drc/situation-reports",
+      "scope": "drc-east",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Official country and eastern-conflict reports for protection, WASH, health, nutrition and education.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "unicef-somalia",
+      "title": "UNICEF Somalia situation reports",
+      "publisher": "UNICEF",
+      "url": "https://www.unicef.org/appeals/somalia/situation-reports",
+      "scope": "bay",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Dated country reports; avoid treating national statistics as Bay-specific evidence.",
+      "retrievalLimitation": "Directory fetch timed out twice during research. Direct UNICEF Somalia report PDFs were discoverable; the timeout does not establish that the directory is unavailable.",
+      "checkedAt": "2026-10-05"
+    },
+    {
+      "id": "fsnau",
+      "title": "Food Security and Nutrition Analysis Unit Somalia",
+      "publisher": "FAO / FSNAU",
+      "url": "https://fsnau.org/",
+      "scope": "bay",
+      "kind": "official-directory",
+      "feedUrl": null,
+      "description": "Seasonal assessments and IPC documents, including separately described Bay rural, urban and displaced populations.",
+      "checkedAt": "2026-10-05"
+    }
+  ],
+  "locations": [
+    {
+      "id": "sudan-chad",
+      "name": "Sudan–Chad corridor",
+      "countries": [
+        "SDN",
+        "TCD"
+      ],
+      "focus": [
+        "WASH",
+        "Nutrition",
+        "Education",
+        "Protection"
+      ],
+      "description": "Displacement, nutrition and cross-border service continuity."
+    }
+  ],
+  "guidance": [
+    {
+      "id": "sphere-wash",
+      "title": "Restore safe water and WASH access",
+      "domains": [
+        "WASH",
+        "Health",
+        "Education"
+      ],
+      "actor": "Qualified WASH teams and local water authorities",
+      "actions": [
+        "Assess water safety and access with affected communities.",
+        "Repair or restore water systems through qualified teams.",
+        "Provide appropriate hygiene information and accessible sanitation."
+      ],
+      "verification": "Document functioning, accessible service and water-quality verification; distribution counts alone are insufficient.",
+      "url": "https://spherestandards.org/handbook/"
+    },
+    {
+      "id": "sphere-nutrition",
+      "title": "Protect food access and qualified nutrition referral",
+      "domains": [
+        "Nutrition",
+        "Health",
+        "Education"
+      ],
+      "actor": "Qualified nutrition services, food-security teams and local health authorities",
+      "actions": [
+        "Assess access, markets and nutrition risk with local services.",
+        "Support established screening and referral pathways.",
+        "Evaluate food, cash and school-meal options with authorized partners."
+      ],
+      "verification": "Verify access and use, then assess observed conditions; do not infer causality from funding.",
+      "url": "https://spherestandards.org/handbook/"
+    },
+    {
+      "id": "inee",
+      "title": "Maintain safe and inclusive learning",
+      "domains": [
+        "Education",
+        "WASH",
+        "Protection"
+      ],
+      "actor": "Education authorities, community educators and qualified protection services",
+      "actions": [
+        "Consult learners, caregivers and educators about barriers.",
+        "Assess safe, accessible learning spaces and WASH.",
+        "Support continuity of learning through existing education services."
+      ],
+      "verification": "Verify accessibility and continuity with community feedback; never publish individual attendance or survivor narratives.",
+      "url": "https://inee.org/minimum-standards"
+    },
+    {
+      "id": "ewars",
+      "title": "Support established early-warning and referral systems",
+      "domains": [
+        "Health",
+        "WASH",
+        "Nutrition"
+      ],
+      "actor": "Public-health surveillance and qualified clinical services",
+      "actions": [
+        "Route aggregated signals to established surveillance teams.",
+        "Validate signals before classifying an event.",
+        "Use established referral pathways; the relay provides no diagnosis."
+      ],
+      "verification": "Record validation and service availability separately from alerts or messages sent.",
+      "url": "https://www.who.int/emergencies/surveillance/early-warning-alert-and-response-system-ewars"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "unicef-hac",
+      "name": "UNICEF",
+      "url": "https://www.unicef.org/appeals",
+      "scope": "continental",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "who-afro",
+      "name": "WHO AFRO",
+      "url": "https://www.afro.who.int/",
+      "scope": "continental",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "wfp-operations",
+      "name": "World Food Programme",
+      "url": "https://www.wfp.org/operations",
+      "scope": "continental",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unhcr-odp",
+      "name": "UNHCR",
+      "url": "https://data.unhcr.org/",
+      "scope": "continental",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "au-acerwc",
+      "name": "African Union / ACERWC",
+      "url": "https://www.acerwc.africa/",
+      "scope": "continental",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unhcr-sudan",
+      "name": "UNHCR",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "scope": "sudan-chad",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unicef-sudan",
+      "name": "UNICEF",
+      "url": "https://www.unicef.org/appeals/sudan/situation-reports",
+      "scope": "sudan-chad",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unicef-chad",
+      "name": "UNICEF",
+      "url": "https://www.unicef.org/chad/",
+      "scope": "sudan-chad",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unicef-southsudan",
+      "name": "UNICEF",
+      "url": "https://www.unicef.org/appeals/south-sudan/situation-reports",
+      "scope": "jonglei",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unhcr-southsudan",
+      "name": "UNHCR",
+      "url": "https://data.unhcr.org/en/situations/southsudan",
+      "scope": "jonglei",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unicef-drc",
+      "name": "UNICEF",
+      "url": "https://www.unicef.org/appeals/drc/situation-reports",
+      "scope": "drc-east",
+      "status": "official-directory; local service and capacity unverified"
+    },
+    {
+      "id": "unicef-somalia",
+      "name": "UNICEF",
+      "url": "https://www.unicef.org/appeals/somalia/situation-reports",
+      "scope": "bay",
+      "status": "official-directory; local service and capacity unverified"
+    }
+  ],
+  "standards": [
+    {
+      "id": "cap-1.2",
+      "title": "Common Alerting Protocol 1.2",
+      "publisher": "OASIS",
+      "url": "https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html",
+      "publishedAt": "2010-07-01",
+      "description": "Standard alert exchange format with multilingual information blocks, geographies, updates, cancellations and expiry.",
+      "implementation": {
+        "namespace": "urn:oasis:names:tc:emergency:cap:1.2",
+        "requiredAlertFields": [
+          "identifier",
+          "sender",
+          "sent",
+          "status",
+          "msgType",
+          "scope"
+        ],
+        "requiredInfoFields": [
+          "category",
+          "event",
+          "urgency",
+          "severity",
+          "certainty"
+        ],
+        "status": [
+          "Actual",
+          "Exercise",
+          "System",
+          "Test",
+          "Draft"
+        ],
+        "msgType": [
+          "Alert",
+          "Update",
+          "Cancel",
+          "Ack",
+          "Error"
+        ],
+        "scope": [
+          "Public",
+          "Restricted",
+          "Private"
+        ],
+        "urgency": [
+          "Immediate",
+          "Expected",
+          "Future",
+          "Past",
+          "Unknown"
+        ],
+        "severity": [
+          "Extreme",
+          "Severe",
+          "Moderate",
+          "Minor",
+          "Unknown"
+        ],
+        "certainty": [
+          "Observed",
+          "Likely",
+          "Possible",
+          "Unlikely",
+          "Unknown"
+        ],
+        "categories": [
+          "Geo",
+          "Met",
+          "Safety",
+          "Security",
+          "Rescue",
+          "Fire",
+          "Health",
+          "Env",
+          "Transport",
+          "Infra",
+          "CBRNE",
+          "Other"
+        ],
+        "constraints": [
+          "identifier and sender must not contain spaces, commas, < or &.",
+          "category may repeat; an info block requires at least one category.",
+          "Use numeric timezone offsets. Alphabetic Z is prohibited. UTC must be rendered -00:00.",
+          "Restricted scope requires restriction. Private scope requires addresses.",
+          "references encode sender,identifier,sent tuples separated by whitespace.",
+          "An area block requires areaDesc. A resource block requires resourceDesc and mimeType.",
+          "Information blocks may repeat for translations. language defaults to en-US.",
+          "The application should validate XML against CAP 1.2 and state its profile limits before claiming full producer conformance."
+        ]
+      },
+      "applicationPolicy": "Historical seed messages and demonstrations remain Test or Draft. Actual publication requires a human-reviewed claim and an explicitly authorized publisher. CAP alone does not grant operational authority."
+    },
+    {
+      "id": "hxl-1.1",
+      "title": "Humanitarian Exchange Language 1.1, archived reference",
+      "publisher": "HXL Working Group / OCHA",
+      "url": "https://hxlstandard.github.io/libhxl-python/",
+      "relatedUrls": [
+        "https://hxlstandard.github.io/libhxl-python/input.html",
+        "https://centre.humdata.org/ufaq-category/cxl-hashtags-attributes/",
+        "https://centre.humdata.org/retiring-hxl-services/"
+      ],
+      "description": "Lightweight spreadsheet metadata using hashtags and plus-prefixed attributes. Official library documentation retains parsing and tagging examples.",
+      "implementation": "Use a human-readable header row plus a hashtag row. Prefer #country+code, #adm1+name, #sector, #date+reported and #org+name. Use explicit #x_ extension hashtags for relay-specific claim identity, layer, review state and source link instead of claiming custom fields are core HXL. Do not export private contact tags.",
+      "limitation": "OCHA support and HXL proxy/Quick Charts services ended 31 January 2026. HXL friendliness is local interoperability, not a current HDX requirement."
+    },
+    {
+      "id": "sphere-2018",
+      "title": "Sphere Handbook, fourth edition",
+      "publisher": "Sphere",
+      "url": "https://www.spherestandards.org/handbook/",
+      "publishedAt": "2018",
+      "description": "Humanitarian Charter, protection principles and minimum standards for WASH, food security/nutrition, shelter/settlement and health.",
+      "implementation": "Attach specific standard references to WASH and nutrition indicators and proposed interventions. Preserve contextual guidance and local participation. Do not turn a single threshold into a clinical diagnosis or sufficient proof of programme quality.",
+      "limitation": "Sphere does not provide a standalone education chapter; use INEE for education. No claim of Sphere certification is made."
+    },
+    {
+      "id": "chs-2024",
+      "title": "Core Humanitarian Standard, 2024 edition",
+      "publisher": "CHS",
+      "url": "https://www.corehumanitarianstandard.org/the-standard",
+      "publishedAt": "2024",
+      "description": "Nine commitments concerning quality, accountability, dignity and the primary role of affected people in finding solutions.",
+      "implementation": "Expose local correction, accessible complaints, consent expectations, review reasons and learning/outcome records. Community feedback requires moderation and must not automatically create public claims.",
+      "limitation": "Software alignment is not organizational CHS verification or certification."
+    },
+    {
+      "id": "inee-2024",
+      "title": "INEE Minimum Standards for Education, 2024 edition",
+      "publisher": "Inter-agency Network for Education in Emergencies",
+      "url": "https://inee.org/resources/inee-minimum-standards",
+      "publishedAt": "2024-04-30",
+      "description": "Framework for inclusive, equitable, safe education preparedness, response and recovery in crises.",
+      "implementation": "Reference INEE for education access, safe learning spaces, participation and education recovery. Nexus rules may flag service-disruption questions for review, but cannot certify a learning site as safe."
+    },
+    {
+      "id": "who-ewar",
+      "title": "Early warning alert and response in emergencies: an operational guide",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789240063587",
+      "publishedAt": "2023-01-27",
+      "relatedUrls": [
+        "https://www.who.int/emergencies/surveillance/early-warning-alert-and-response-system-ewars"
+      ],
+      "description": "Operational guidance distinguishes signals, events, alerts, verification, risk assessment and response.",
+      "implementation": "Maintain a signal log and explicit verification gate. Health signals go to qualified health reviewers; generated pattern matches are candidates. EWARS complements national disease surveillance and should reconnect with it after emergencies.",
+      "limitation": "The relay is not WHO EWARS software or an authorized disease-surveillance system. Do not publish unverified outbreak declarations."
+    },
+    {
+      "id": "ipc-manual",
+      "title": "IPC Technical Manual 3.1 and projection guidance",
+      "publisher": "Integrated Food Security Phase Classification",
+      "url": "https://www.ipcinfo.org/ipcinfo-website/resources/ipc-manual/en/",
+      "relatedUrls": [
+        "https://www.ipcinfo.org/ipcinfo-website/resources/resources-details/en/c/1154245/",
+        "https://www.ipcinfo.org/ipcinfo-website/faqs/en/"
+      ],
+      "description": "Evidence-convergence protocols distinguish acute food insecurity, chronic food insecurity and acute malnutrition and retain classification uncertainty.",
+      "implementation": "Store source-published classification, analysis period, projection period and assumptions separately. A risk-of-Famine statement differs from a Famine classification. Never generate an IPC classification from a local score.",
+      "limitation": "IPC situation analysis is not an outcome-monitoring or intervention-impact evaluation tool. Historical projections expire and must not be displayed as current observations."
+    },
+    {
+      "id": "rapidpro-v2",
+      "title": "RapidPro API v2",
+      "publisher": "RapidPro / TextIt",
+      "url": "https://rapidpro.io/api/v2/",
+      "relatedUrls": [
+        "https://rapidpro.io/api/v2/flow_starts",
+        "https://rapidpro.io/api/v2/broadcasts"
+      ],
+      "description": "HTTPS JSON API for contacts, message broadcasts and workflow starts.",
+      "implementation": {
+        "authentication": "Authorization: Token <secret>; server-side storage only; HTTPS required.",
+        "flowStartsEndpoint": "/api/v2/flow_starts.json",
+        "flowStartsMethod": "POST",
+        "flowStartsFields": [
+          "flow",
+          "contacts",
+          "groups",
+          "urns",
+          "restart_participants",
+          "exclude_active",
+          "params"
+        ],
+        "broadcastsEndpoint": "/api/v2/broadcasts.json",
+        "broadcastsFields": [
+          "contacts",
+          "groups",
+          "urns",
+          "text",
+          "base_language"
+        ],
+        "constraints": [
+          "flow is required for flow starts.",
+          "contacts, groups and urns each accept up to 100 strings.",
+          "Flow-start params is an object with at most 10K characters; current docs use params, not legacy extra.",
+          "Set restart_participants false and exclude_active true unless a reviewer explicitly changes these behaviors.",
+          "Use ISO-639-3 keys such as eng, fra, ara in translated text objects.",
+          "Honor Retry-After on HTTP 429. Do not retry unchanged invalid requests after HTTP 400.",
+          "Starting a flow is asynchronous; an accepted request does not verify delivery or an intervention outcome."
+        ]
+      },
+      "limitation": "Compatibility can be tested with a local mock; actual delivery requires a configured deployment, authorized recipients and human dispatch approval."
+    },
+    {
+      "id": "ocha-data-responsibility-2025",
+      "title": "OCHA Data Responsibility Guidelines, January 2025",
+      "publisher": "OCHA Centre for Humanitarian Data",
+      "url": "https://www.unocha.org/publications/report/world/data-responsibility-guidelines-january-2025",
+      "publishedAt": "2025-01",
+      "description": "Principles and operational procedures for safe, ethical and effective handling of humanitarian personal and non-personal data.",
+      "implementation": "Apply disclosure-risk review to geography, populations and linked evidence. Aggregate, redact or suppress sensitive public output before feeds, CAP, offline packs and QR generation. Country/admin-1 rules are conservative application policies, not universal guarantees of anonymity.",
+      "limitation": "Aggregation alone may still reveal vulnerable groups in sparse locations; private details should not enter public records."
+    },
+    {
+      "id": "au-child-charter",
+      "title": "African Charter on the Rights and Welfare of the Child",
+      "publisher": "African Union / ACERWC",
+      "url": "https://au.int/en/treaties/african-charter-rights-and-welfare-child",
+      "relatedUrls": [
+        "https://www.acerwc.africa/en/page/african-charter-rights-and-welfare-child"
+      ],
+      "publishedAt": "1990-07-01",
+      "description": "Regional child-rights instrument addressing best interests, privacy, education, health and protection including during armed conflict and displacement.",
+      "implementation": "Use as a governance reference for child-first review and protection. It does not confer authority on software or replace national legal review."
+    }
+  ],
+  "languages": [
+    "en",
+    "fr",
+    "ar",
+    "pt",
+    "sw"
+  ],
+  "languageResources": {
+    "en": {
+      "overview": "Intervention windows",
+      "evidence": "Evidence spine",
+      "cascade": "Nexus explorer",
+      "review": "Human review",
+      "packs": "Offline packs",
+      "governance": "Governance",
+      "search": "Search evidence and places",
+      "allRegions": "All pilot regions",
+      "sources": "Sources",
+      "observation": "Observation",
+      "inference": "Inference",
+      "forecast": "Forecast",
+      "recommendation": "Recommendation",
+      "reference": "Historical reference · unreviewed",
+      "published": "Published",
+      "draft": "Draft",
+      "approved": "Approved for publication",
+      "rejected": "Review returned",
+      "offline": "Offline · saved snapshot",
+      "online": "Connected",
+      "refresh": "Refresh evidence",
+      "details": "Inspect evidence",
+      "correct": "Add local correction",
+      "save": "Save on this device",
+      "back": "Back to evidence",
+      "empty": "No records match these filters.",
+      "download": "Download pack",
+      "install": "Save pack for offline use",
+      "reviewRequired": "Human review required",
+      "sourceDate": "Source publication",
+      "expires": "Expiry",
+      "privacy": "Privacy",
+      "outcomes": "Outcome verification",
+      "print": "Print card",
+      "email": "Email draft",
+      "newDraft": "Prepare a draft",
+      "export": "Export workspace",
+      "import": "Import JSON, RSS, Atom or HXL CSV",
+      "temporary": "Temporary storage",
+      "local": "Device workspace",
+      "priority": "Review priority",
+      "notice": "Source dates matter. Reference records describe past reports and do not establish current conditions."
+    },
+    "fr": {
+      "overview": "Fenêtres d’intervention",
+      "evidence": "Trame de preuves",
+      "cascade": "Explorer les liens",
+      "review": "Examen humain",
+      "packs": "Dossiers hors connexion",
+      "governance": "Gouvernance",
+      "search": "Rechercher preuves et lieux",
+      "allRegions": "Toutes les régions pilotes",
+      "sources": "Sources",
+      "observation": "Observation",
+      "inference": "Inférence",
+      "forecast": "Prévision",
+      "recommendation": "Recommandation",
+      "reference": "Référence historique · non examinée",
+      "published": "Publié",
+      "draft": "Brouillon",
+      "approved": "Approuvé pour publication",
+      "rejected": "À revoir",
+      "offline": "Hors connexion · copie locale",
+      "online": "Connecté",
+      "refresh": "Actualiser",
+      "details": "Examiner les preuves",
+      "correct": "Ajouter une correction locale",
+      "save": "Enregistrer sur cet appareil",
+      "back": "Retour aux preuves",
+      "empty": "Aucun résultat.",
+      "download": "Télécharger",
+      "install": "Enregistrer hors connexion",
+      "reviewRequired": "Examen humain requis",
+      "sourceDate": "Date de publication",
+      "expires": "Expiration",
+      "privacy": "Confidentialité",
+      "outcomes": "Vérification des résultats",
+      "print": "Imprimer",
+      "email": "Brouillon courriel",
+      "newDraft": "Préparer un brouillon",
+      "export": "Exporter",
+      "import": "Importer JSON, RSS, Atom ou HXL CSV",
+      "temporary": "Stockage temporaire",
+      "local": "Espace local",
+      "priority": "Priorité d’examen",
+      "notice": "Les références décrivent des rapports passés et ne confirment pas la situation actuelle."
+    },
+    "ar": {
+      "overview": "فترات التدخل",
+      "evidence": "شبكة الأدلة",
+      "cascade": "استكشاف الترابط",
+      "review": "المراجعة البشرية",
+      "packs": "حزم دون اتصال",
+      "governance": "الحوكمة",
+      "search": "البحث في الأدلة والأماكن",
+      "allRegions": "جميع المناطق التجريبية",
+      "sources": "المصادر",
+      "observation": "ملاحظة",
+      "inference": "استنتاج",
+      "forecast": "توقع",
+      "recommendation": "توصية",
+      "reference": "مرجع تاريخي · لم يراجع",
+      "published": "منشور",
+      "draft": "مسودة",
+      "approved": "معتمد للنشر",
+      "rejected": "بحاجة إلى مراجعة",
+      "offline": "دون اتصال · نسخة محفوظة",
+      "online": "متصل",
+      "refresh": "تحديث",
+      "details": "فحص الأدلة",
+      "correct": "إضافة تصحيح محلي",
+      "save": "حفظ على هذا الجهاز",
+      "back": "العودة إلى الأدلة",
+      "empty": "لا توجد نتائج.",
+      "download": "تنزيل",
+      "install": "حفظ للاستخدام دون اتصال",
+      "reviewRequired": "مراجعة بشرية مطلوبة",
+      "sourceDate": "تاريخ المصدر",
+      "expires": "انتهاء الصلاحية",
+      "privacy": "الخصوصية",
+      "outcomes": "التحقق من النتائج",
+      "print": "طباعة",
+      "email": "مسودة بريد",
+      "newDraft": "إعداد مسودة",
+      "export": "تصدير",
+      "import": "استيراد JSON أو RSS أو Atom أو HXL",
+      "temporary": "تخزين مؤقت",
+      "local": "مساحة الجهاز",
+      "priority": "أولوية المراجعة",
+      "notice": "المراجع تصف تقارير سابقة ولا تثبت الظروف الحالية."
+    },
+    "pt": {
+      "overview": "Janelas de intervenção",
+      "evidence": "Rede de evidências",
+      "cascade": "Explorar conexões",
+      "review": "Revisão humana",
+      "packs": "Pacotes offline",
+      "governance": "Governança",
+      "search": "Pesquisar evidências e lugares",
+      "allRegions": "Todas as regiões piloto",
+      "sources": "Fontes",
+      "observation": "Observação",
+      "inference": "Inferência",
+      "forecast": "Previsão",
+      "recommendation": "Recomendação",
+      "reference": "Referência histórica · sem revisão",
+      "published": "Publicado",
+      "draft": "Rascunho",
+      "approved": "Aprovado para publicação",
+      "rejected": "Revisão devolvida",
+      "offline": "Offline · cópia salva",
+      "online": "Conectado",
+      "refresh": "Atualizar",
+      "details": "Inspecionar evidências",
+      "correct": "Adicionar correção local",
+      "save": "Salvar neste dispositivo",
+      "back": "Voltar",
+      "empty": "Nenhum resultado.",
+      "download": "Baixar",
+      "install": "Salvar offline",
+      "reviewRequired": "Revisão humana necessária",
+      "sourceDate": "Data da fonte",
+      "expires": "Validade",
+      "privacy": "Privacidade",
+      "outcomes": "Verificação de resultados",
+      "print": "Imprimir",
+      "email": "Rascunho de email",
+      "newDraft": "Preparar rascunho",
+      "export": "Exportar",
+      "import": "Importar JSON, RSS, Atom ou HXL CSV",
+      "temporary": "Armazenamento temporário",
+      "local": "Espaço local",
+      "priority": "Prioridade de revisão",
+      "notice": "As referências descrevem relatórios passados e não confirmam as condições atuais."
+    },
+    "sw": {
+      "overview": "Fursa za hatua",
+      "evidence": "Mtandao wa ushahidi",
+      "cascade": "Chunguza uhusiano",
+      "review": "Mapitio ya binadamu",
+      "packs": "Vifurushi bila mtandao",
+      "governance": "Utawala",
+      "search": "Tafuta ushahidi na maeneo",
+      "allRegions": "Maeneo yote ya majaribio",
+      "sources": "Vyanzo",
+      "observation": "Uchunguzi",
+      "inference": "Hitimisho",
+      "forecast": "Utabiri",
+      "recommendation": "Pendekezo",
+      "reference": "Rejea ya kihistoria · haijapitiwa",
+      "published": "Imechapishwa",
+      "draft": "Rasimu",
+      "approved": "Imeidhinishwa kuchapishwa",
+      "rejected": "Mapitio yamerudishwa",
+      "offline": "Bila mtandao · nakala iliyohifadhiwa",
+      "online": "Imeunganishwa",
+      "refresh": "Sasisha",
+      "details": "Kagua ushahidi",
+      "correct": "Ongeza marekebisho ya jamii",
+      "save": "Hifadhi kwenye kifaa",
+      "back": "Rudi",
+      "empty": "Hakuna matokeo.",
+      "download": "Pakua",
+      "install": "Hifadhi bila mtandao",
+      "reviewRequired": "Mapitio ya binadamu yanahitajika",
+      "sourceDate": "Tarehe ya chanzo",
+      "expires": "Mwisho wa muda",
+      "privacy": "Faragha",
+      "outcomes": "Uthibitishaji wa matokeo",
+      "print": "Chapisha kadi",
+      "email": "Rasimu ya barua pepe",
+      "newDraft": "Andaa rasimu",
+      "export": "Hamisha",
+      "import": "Ingiza JSON, RSS, Atom au HXL CSV",
+      "temporary": "Hifadhi ya muda",
+      "local": "Eneo la kifaa",
+      "priority": "Kipaumbele cha mapitio",
+      "notice": "Rejea zinaeleza ripoti za zamani na hazithibitishi hali ya sasa."
+    }
+  },
+  "referrals": [
+    {
+      "status": "requires-local-validation",
+      "instruction": "Use the linked official agency country directory; no phone number, facility capacity or service availability is asserted."
+    }
+  ],
+  "map": {
+    "type": "coarse-geography",
+    "countries": [
+      "SDN",
+      "TCD"
+    ],
+    "precision": "country/admin1 only; no routes or sensitive facilities"
+  },
+  "sha256": "e50a4646cf2e127bb6fa21fac3b7bc0976dd5de148acd4045e69cc28fb7993c4"
+}

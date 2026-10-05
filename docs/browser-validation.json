@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-05",
+  "browser": "Chrome headless isolated context",
+  "checks": [
+    {
+      "name": "landing, dated reference cards and source integrity labels",
+      "status": "passed"
+    },
+    {
+      "name": "search matching and empty state reset",
+      "status": "passed"
+    },
+    {
+      "name": "region and claim classification filters",
+      "status": "passed"
+    },
+    {
+      "name": "detail route provenance, CAP, QR and print-safe output",
+      "status": "passed"
+    },
+    {
+      "name": "community feedback focus, privacy queue and storage",
+      "status": "passed"
+    },
+    {
+      "name": "human friendly draft editor validates errors and queues draft",
+      "status": "passed"
+    },
+    {
+      "name": "evidence country directory and all governance routes",
+      "status": "passed"
+    },
+    {
+      "name": "nexus pathways respond to trigger and blocking",
+      "status": "passed"
+    },
+    {
+      "name": "regional pack install, download, integrity error and storage persistence",
+      "status": "passed"
+    },
+    {
+      "name": "RSS Atom JSON and HXL browser parsers handle trusted types as untrusted candidates",
+      "status": "passed"
+    },
+    {
+      "name": "language persistence and Arabic right-to-left layout",
+      "status": "passed"
+    },
+    {
+      "name": "keyboard skip navigation and modal focus trap",
+      "status": "passed"
+    },
+    {
+      "name": "accessible control labels and desktop overflow",
+      "status": "passed"
+    },
+    {
+      "name": "mobile navigation and horizontal layout at 390 pixels",
+      "status": "passed"
+    },
+    {
+      "name": "service-worker-controlled cold reload and saved packs fully offline",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "failures": []
+}
